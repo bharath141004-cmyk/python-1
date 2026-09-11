@@ -1,0 +1,69 @@
+"""
+marks = [80, 90, 75]
+marks.remove(90)
+print(marks)
+
+numbers = [10,20,30]
+numbers.isert(1, 15)
+print(numbers)
+"""
+a = [1, 2, 3]
+b = [4, 5, 6]
+a.extend(b)
+print(a)
+#clear the list
+numbers = [10, 20, 30]
+numbers.clear()
+print(numbers)
+#index method
+numbers = [10, 20, 30, 40]
+print(numbers.index(30))
+
+
+#count method
+numbers = [ 1, 2, 3, 4, 5]
+print(numbers.count(3))
+
+#sort method
+numbers = [ 5, 2, 9, 1, 7]
+numbers.sort()
+print(numbers) 
+numbers.sort(reverse=True)
+print(numbers)
+
+#reverse method
+numbers = [1 , 2 , 3 , 4 ,5 ]
+numbers.reverse 
+print(numbers)
+
+#copy method 
+a = [1 , 2 , 3]
+b = a.copy()
+print(b)
+
+numbers = [ 10, 20 , 30 , 40, 50 ]
+
+print(numbers[1:4])
+print(numbers[:3])
+print(numbers[2:])
+print(numbers[::-1])
+
+#tuples in python
+#tuple is a collection of multiple values that is ordered and cannot be changed after creation
+student = ("bhargavi" , 98, "python")
+print(student[0])
+
+#access value in a tuple
+student = ("bhargavi" , 21, 85.5)
+print(student[0])
+print(student[1])
+print(student[2])
+
+numbers = (10, 20, 30, 40)
+print(len(numbers))
+print(max(numbers))
+print(min(numbers))
+print(sum(numbers))
+
+#sets in python
+#set is a collection of unquie values 
